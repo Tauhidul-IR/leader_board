@@ -1,11 +1,11 @@
 body {
-    margin: 0;
+    margin: 0px;
 }
 
 header {
     width: 100%;
-    background-color: #562EFF;
-    padding: 10px 0;
+    background-color: rgb(86, 46, 255);
+    padding: 10px 0px;
 }
 
 .container {
@@ -33,7 +33,7 @@ header {
 }
 
 .logo h2 {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
 }
 
 .menu {
@@ -49,8 +49,7 @@ header {
 }
 
 nav a {
-    columns: #ffffff;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -59,33 +58,29 @@ nav a {
     height: 51px;
 }
 
-/* main-section */
-
 .top-section {
-    background-color: #E5E5E5;
+    background-color: rgb(229, 229, 229);
     display: flex;
 }
 
 .top-player {
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
 
-
-
 .title {
-    margin: 0;
-    color: #562EFF;
+    margin: 0px;
+    color: rgb(86, 46, 255);
     font-size: 24px;
 }
 
 .Players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
+    row-gap: 30px;
     margin-top: 30px;
 }
 
@@ -104,7 +99,7 @@ nav a {
 }
 
 hr {
-    border: 1px solid #e3d7d7;
+    border: 1px solid rgb(227, 215, 215);
     margin-top: 30px;
 }
 
@@ -112,13 +107,11 @@ hr {
     margin-top: 30px;
 }
 
-
-
 .blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 40px 0;
-    grid-row-gap: 30px;
+    margin: 40px 0px;
+    row-gap: 30px;
 }
 
 .blog {
@@ -127,7 +120,6 @@ hr {
 }
 
 .feature-img {
-    width: 125;
     margin-right: 20px;
 }
 
@@ -136,23 +128,20 @@ hr {
     height: 117px;
 }
 
-
 .info h5 {
     font-size: 16px;
-    color: #9b9191;
+    color: rgb(155, 145, 145);
 }
 
 .info a {
     text-decoration: none;
-    color: #562EFF;
+    color: rgb(86, 46, 255);
 }
 
 h4 {
     font-size: 20px;
-    margin: 15px 0;
+    margin: 15px 0px;
 }
-
-
 
 .course-section {
     background-color: white;
@@ -164,11 +153,10 @@ h4 {
     padding: 20px;
 }
 
-
 .courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 50px;
+    column-gap: 50px;
     padding: 20px;
 }
 
@@ -184,6 +172,43 @@ h4 {
 }
 
 .course h6 {
-    color: #fb2929;
-    margin: 0;
+    color: rgb(251, 41, 41);
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star {
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.star i {
+    font-size: 12px;
+    color: rgb(231, 189, 94);
+}
+
+.color {}
+
+.star span {
+    font-size: 12px;
+}
+
+.rating {
+    padding: 8px;
+    background-color: rgb(249, 235, 235);
+    border-radius: 35px;
+    margin-right: 10px;
+}
+
+.clock {
+    color: red;
+}
+
+.rating span {
+    color: rgb(231, 71, 71);
 }
